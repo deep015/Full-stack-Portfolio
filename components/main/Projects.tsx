@@ -12,19 +12,21 @@ const Projects = () => {
       </h1>
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
         <ProjectCard
-          src="/NextWebsite.png"
-          title="Modern Next.js Portfolio"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          src="/ai-kid.png"
+          title="AI kids Story Genrator"
+          description="
+The AI Kids Story Generator is an interactive web application that uses AI to create personalized stories based on user preferences, fostering creativity and enhancing literacy for children. It combines modern technologies like Next.js, Gemini AI API, Tailwind CSS, and Clerk to deliver an engaging, fun, and educational storytelling experience."
         />
         <ProjectCard
-          src="/CardImage.png"
-          title="Interactive Website Cards"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          src="/ems.png"
+          title="Employee Managment System"
+          description="Developed an Employee Management System using React.js, enabling administrators to efficiently manage employee data, leave requests, and payroll through a secure and user-friendly interface. Integrated role-based authentication and dynamic CRUD operations for streamlined functionality"
         />
         <ProjectCard
           src="/SpaceWebsite.png"
           title="Space Themed Website"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          description="
+Developed an animated portfolio website using Next.js, showcasing full-stack development expertise with smooth transitions and interactive design. Demonstrated proficiency in modern web technologies, ensuring an engaging user experience."
         />
       </div>
     </div>
